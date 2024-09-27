@@ -1,25 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
+import Header from './Components/Header';
+import Hero from './Components/Hero';
+import Resume from './Components/Resume';
+import About from './Components/About';
+import Portfolio from './Components/Portfolio';
+import ContactMe from './Components/ContactMe';
+import Footer from './Components/Footer';
+import useLocalStorage from 'use-local-storage'
+import Timeline from './Components/Timeline';
 
-function App() {
+
+
+const App = () => {
+  const [isDark, setIsDark] = useLocalStorage(false);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='app' data-theme={isDark ? 'dark' : 'light'}>
+      {/* Pass both isDark and setIsDark */}
+      <Header isDark={isDark} setIsDark={setIsDark} />
+      <Hero />
+     <About/>
+     <Timeline/>
+     <Portfolio/>
+     <ContactMe/>
+     <Footer/>
     </div>
   );
-}
+};
 
 export default App;
