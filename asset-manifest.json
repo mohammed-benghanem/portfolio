@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/mohammed-benghanem/portfolio/static/css/main.11930098.css",
+    "main.js": "/mohammed-benghanem/portfolio/static/js/main.ade0cf9f.js",
+    "static/js/453.1407b060.chunk.js": "/mohammed-benghanem/portfolio/static/js/453.1407b060.chunk.js",
+    "static/media/profil9.png": "/mohammed-benghanem/portfolio/static/media/profil9.18bd7bbc9d398a8e5ffb.png",
+    "static/media/profildark2.png": "/mohammed-benghanem/portfolio/static/media/profildark2.4ffdd2d6003403a867cd.png",
+    "static/media/profilabout.png": "/mohammed-benghanem/portfolio/static/media/profilabout.de832dbd75193c47b82b.png",
+    "static/media/profilabout2.png": "/mohammed-benghanem/portfolio/static/media/profilabout2.c06d81ab3990eab852ad.png",
+    "static/media/pro3.png": "/mohammed-benghanem/portfolio/static/media/pro3.e5af0b407cd64d13ef88.png",
+    "static/media/pro1.png": "/mohammed-benghanem/portfolio/static/media/pro1.b5c563dd08439f4b54dc.png",
+    "static/media/pro2.png": "/mohammed-benghanem/portfolio/static/media/pro2.ce5b7201aa87141e4d96.png",
+    "static/media/logomb1.png": "/mohammed-benghanem/portfolio/static/media/logomb1.21284f1e9999d1234b56.png",
+    "static/media/logomb2.png": "/mohammed-benghanem/portfolio/static/media/logomb2.3558ba2f6d187a4a2ef2.png",
+    "static/media/school.svg": "/mohammed-benghanem/portfolio/static/media/school.a41655f6d5350015803153c7410cef6a.svg",
+    "index.html": "/mohammed-benghanem/portfolio/index.html",
+    "static/media/work.svg": "/mohammed-benghanem/portfolio/static/media/work.3710b62484ed638074240e99317c6c60.svg",
+    "main.11930098.css.map": "/mohammed-benghanem/portfolio/static/css/main.11930098.css.map",
+    "main.ade0cf9f.js.map": "/mohammed-benghanem/portfolio/static/js/main.ade0cf9f.js.map",
+    "453.1407b060.chunk.js.map": "/mohammed-benghanem/portfolio/static/js/453.1407b060.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.11930098.css",
+    "static/js/main.ade0cf9f.js"
+  ]
+}
