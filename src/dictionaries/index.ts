@@ -21,8 +21,8 @@ export const profile = {
   phoneHref: "tel:+212766929194",
   linkedin: "https://www.linkedin.com/in/mohammed-benghanem",
   github: "https://github.com/mohammed-benghanem",
-  cv: "/CV_MohammedBenghanem.pdf",
-  photo: "/profile.jpg",
+  cv: { en: "/CV_Mohammed_Benghanem_EN.pdf", fr: "/CV_Mohammed_Benghanem_FR.pdf" } as Record<Locale, string>,
+  photo: "/profile.png",
 };
 
 // Shown in the hero marquee

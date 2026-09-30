@@ -1,15 +1,17 @@
-import { profile, type Dictionary } from "@/dictionaries";
+import { profile, type Dictionary, type Locale } from "@/dictionaries";
 import { BrandMark, BrandName } from "./brand";
 import { ArrowRight, Download, GitHub, LinkedIn, Mail, MapPin, Phone } from "./icons";
 import { Eyebrow } from "./section";
 
 type Props = {
+  lang: Locale;
   contact: Dictionary["contact"];
   footer: Dictionary["footer"];
   nav: Dictionary["nav"];
 };
 
-export function Contact({ contact, footer, nav }: Props) {
+export function Contact({ lang, contact, footer, nav }: Props) {
+  const otherLang: Locale = lang === "en" ? "fr" : "en";
   const channels = [
     { icon: <Mail width={18} height={18} />, label: contact.labels.email, value: profile.email, href: `mailto:${profile.email}` },
     { icon: <Phone width={18} height={18} />, label: contact.labels.phone, value: profile.phone, href: profile.phoneHref },
@@ -84,12 +86,19 @@ export function Contact({ contact, footer, nav }: Props) {
                 <ArrowRight width={15} height={15} className="transition-transform group-hover:translate-x-0.5" />
               </a>
               <a
-                href={profile.cv}
-                download
+                href={profile.cv[lang]}
+                download={`Mohammed_Benghanem_CV_${lang.toUpperCase()}.pdf`}
                 className="inline-flex items-center justify-center gap-2 rounded-full border border-slate-300 bg-white px-7 py-3.5 text-sm font-semibold text-slate-900 transition-all hover:border-slate-400 hover:bg-slate-50"
               >
                 <Download width={15} height={15} className="text-sky-500" />
                 {contact.cv}
+              </a>
+              <a
+                href={profile.cv[otherLang]}
+                download={`Mohammed_Benghanem_CV_${otherLang.toUpperCase()}.pdf`}
+                className="text-xs font-semibold text-sky-700 underline decoration-sky-300 underline-offset-4 transition-colors hover:text-blue-600"
+              >
+                {contact.cvOther}
               </a>
             </div>
             <div className="mt-8 flex gap-3">

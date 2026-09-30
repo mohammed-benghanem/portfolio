@@ -4,7 +4,7 @@ const fr: Dictionary = {
   meta: {
     title: "Mohammed Benghanem — Ingénieur IA & Développeur Full Stack",
     description:
-      "Ingénieur en intelligence artificielle spécialisé en IA générative et en développement web : systèmes RAG, fine-tuning de LLM avec QLoRA, agents IA, FastAPI et Next.js.",
+      "Ingénieur en intelligence artificielle spécialisé en IA générative et en développement web : systèmes RAG, fine-tuning de LLM avec QLoRA, agents IA, FastAPI et Next.js. Ouvert aux postes d'ingénieur IA et de développeur full stack.",
   },
   nav: {
     about: "Profil",
@@ -18,7 +18,7 @@ const fr: Dictionary = {
     switchTo: "English",
   },
   hero: {
-    availability: "Disponible immédiatement · Présentiel, hybride ou à distance",
+    availability: "Ouvert aux postes d'ingénieur IA · Présentiel, hybride ou à distance",
     role: "Ingénieur IA & Développeur Full Stack",
     headlineStart: "Je conçois des ",
     headlineAccent: "produits intelligents",
@@ -49,9 +49,20 @@ const fr: Dictionary = {
       "Workflows multi-agents et appel d'outils",
       "API sécurisées et déploiements Docker",
     ],
-    cta: "Discutons de votre projet",
-    orbitTitle: "IA × Full Stack",
-    orbitBadge: "De bout en bout",
+    cta: "Me contacter",
+    glanceTitle: "En bref",
+    glanceBadge: "Ouvert aux opportunités",
+    facts: [
+      { icon: "goal", label: "Je recherche", value: "Un poste d'ingénieur IA ou de développeur full stack" },
+      { icon: "location", label: "Basé à", value: "Tiflet, Maroc · ouvert à la mobilité" },
+      { icon: "role", label: "Poste actuel", value: "Développeur web et IA indépendant · Taxi Tremplin" },
+      { icon: "education", label: "Formation", value: "Master Big Data & IA · Université Ibn Tofail" },
+      { icon: "languages", label: "Langues", value: "Arabe · Anglais (C1) · Français" },
+      { icon: "availability", label: "Disponibilité", value: "Immédiate · présentiel, hybride ou à distance" },
+    ],
+    cvTitle: "Télécharger mon CV",
+    cvEn: "Anglais",
+    cvFr: "Français",
     pillars: [
       {
         title: "IA générative",
@@ -254,8 +265,8 @@ const fr: Dictionary = {
       { tag: "Efficacité", value: "6 Go", label: "Un seul GPU pour fine-tuner un LLM de 1,5 Md" },
       { tag: "Expérience", value: "3", label: "Expériences en IA et développement web" },
     ],
-    ctaText: "Vous avez un projet IA ou un poste à pourvoir ?",
-    ctaButton: "Travaillons ensemble",
+    ctaText: "Vous recrutez un ingénieur IA capable d'amener un modèle jusqu'en production ?",
+    ctaButton: "Me contacter",
   },
   skills: {
     eyebrow: "Compétences",
@@ -313,15 +324,16 @@ const fr: Dictionary = {
   },
   contact: {
     eyebrow: "Contact",
-    title: "Construisons ensemble quelque chose ",
-    titleAccent: "d'intelligent",
-    text: "Je suis disponible immédiatement pour un poste à temps plein ou des missions freelance — en présentiel, en hybride ou à distance. Le plus rapide est de m'écrire par e-mail.",
+    title: "Vous recrutez un ingénieur IA ? ",
+    titleAccent: "Parlons-en",
+    text: "Je suis disponible immédiatement pour un poste d'ingénieur IA ou de développeur full stack — en présentiel, en hybride ou à distance, et ouvert à la mobilité. Le plus rapide est de m'écrire par e-mail ; mon CV est disponible en français et en anglais.",
     labels: { email: "E-mail", phone: "Téléphone", location: "Localisation" },
     location: "Tiflet, Maroc",
-    cardTitle: "Prêt quand vous l'êtes",
-    cardText: "Envoyez-moi un court message sur votre équipe ou votre projet, je vous réponds rapidement.",
-    email: "Envoyer un e-mail",
+    cardTitle: "Disponible pour un entretien",
+    cardText: "Envoyez-moi l'intitulé du poste ou la fiche de poste, je vous réponds rapidement avec mes disponibilités.",
+    email: "Me contacter par e-mail",
     cv: "Télécharger le CV",
+    cvOther: "Aussi disponible en anglais",
   },
   footer: {
     tagline: "Ingénieur IA et développeur full stack : systèmes RAG, LLM fine-tunés et agents IA.",

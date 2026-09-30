@@ -2,7 +2,7 @@ const en = {
   meta: {
     title: "Mohammed Benghanem — AI Engineer & Full-Stack Developer",
     description:
-      "AI engineer specialized in generative AI and full-stack development: RAG systems, LLM fine-tuning with QLoRA, AI agents, FastAPI and Next.js.",
+      "AI engineer specialized in generative AI and full-stack development: RAG systems, LLM fine-tuning with QLoRA, AI agents, FastAPI and Next.js. Open to AI Engineer and Full-Stack roles.",
   },
   nav: {
     about: "About",
@@ -16,7 +16,7 @@ const en = {
     switchTo: "Français",
   },
   hero: {
-    availability: "Available now · On-site, hybrid or remote",
+    availability: "Open to AI Engineer roles · On-site, hybrid or remote",
     role: "AI Engineer & Full-Stack Developer",
     headlineStart: "I build ",
     headlineAccent: "intelligent products",
@@ -47,9 +47,20 @@ const en = {
       "Multi-agent workflows & tool use",
       "Secure APIs & Docker deployments",
     ],
-    cta: "Let's talk about your project",
-    orbitTitle: "AI × Full-Stack",
-    orbitBadge: "End-to-end",
+    cta: "Get in touch",
+    glanceTitle: "At a glance",
+    glanceBadge: "Open to work",
+    facts: [
+      { icon: "goal", label: "Looking for", value: "Full-time AI Engineer or Full-Stack Developer role" },
+      { icon: "location", label: "Based in", value: "Tiflet, Morocco · open to relocation" },
+      { icon: "role", label: "Current role", value: "Freelance Web & AI Developer · Taxi Tremplin" },
+      { icon: "education", label: "Education", value: "Master's in Big Data & AI · Ibn Tofail University" },
+      { icon: "languages", label: "Languages", value: "Arabic · English (C1) · French" },
+      { icon: "availability", label: "Availability", value: "Immediately · on-site, hybrid or remote" },
+    ],
+    cvTitle: "Download my CV",
+    cvEn: "English",
+    cvFr: "French",
     pillars: [
       {
         title: "Generative AI",
@@ -252,8 +263,8 @@ const en = {
       { tag: "Efficiency", value: "6 GB", label: "Single GPU used to fine-tune a 1.5B LLM" },
       { tag: "Experience", value: "3", label: "Industry roles in AI & web development" },
     ],
-    ctaText: "Have an AI project or a role in mind?",
-    ctaButton: "Let's work together",
+    ctaText: "Hiring an AI engineer who takes models all the way to production?",
+    ctaButton: "Get in touch",
   },
   skills: {
     eyebrow: "Skills",
@@ -311,15 +322,16 @@ const en = {
   },
   contact: {
     eyebrow: "Contact",
-    title: "Let's build something ",
-    titleAccent: "intelligent together",
-    text: "I'm available immediately for full-time roles and freelance missions — on-site, hybrid or remote. The fastest way to reach me is by email.",
+    title: "Hiring an AI engineer? ",
+    titleAccent: "Let's talk",
+    text: "I'm available immediately for a full-time AI Engineer or Full-Stack Developer role — on-site, hybrid or remote, and open to relocation. The fastest way to reach me is by email, and my CV is available in English and French.",
     labels: { email: "Email", phone: "Phone", location: "Location" },
     location: "Tiflet, Morocco",
-    cardTitle: "Ready when you are",
-    cardText: "Send me a short message about your team or project and I'll get back to you quickly.",
-    email: "Send an email",
+    cardTitle: "Available for interviews",
+    cardText: "Send me the role or job description and I'll get back to you quickly with my availability.",
+    email: "Contact me by email",
     cv: "Download CV",
+    cvOther: "Also available in French",
   },
   footer: {
     tagline: "AI engineer & full-stack developer building RAG systems, fine-tuned LLMs and AI agents.",

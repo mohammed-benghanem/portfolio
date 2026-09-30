@@ -85,7 +85,7 @@ export function Navbar({ lang, nav, cvHref }: Props) {
             <span className="hidden sm:inline-flex">{langSwitch}</span>
             <a
               href={cvHref}
-              download
+              download={`Mohammed_Benghanem_CV_${lang.toUpperCase()}.pdf`}
               className="bg-brand-gradient hidden items-center gap-2 rounded-full px-5 py-2.5 text-sm font-bold text-white shadow-md shadow-sky-500/20 transition-all hover:scale-105 hover:shadow-lg hover:shadow-sky-400/35 sm:inline-flex"
             >
               {nav.cv}
@@ -154,7 +154,7 @@ export function Navbar({ lang, nav, cvHref }: Props) {
           <div className="border-t border-slate-100 bg-slate-50/50 p-5">
             <a
               href={cvHref}
-              download
+              download={`Mohammed_Benghanem_CV_${lang.toUpperCase()}.pdf`}
               className="bg-brand-gradient flex w-full items-center justify-center gap-2 rounded-xl px-6 py-3.5 text-sm font-bold text-white shadow-md shadow-sky-500/20"
             >
               {nav.cv}

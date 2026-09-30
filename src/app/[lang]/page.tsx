@@ -16,16 +16,16 @@ export default async function Home({ params }: PageProps<"/[lang]">) {
 
   return (
     <>
-      <Navbar lang={lang} nav={dict.nav} cvHref={profile.cv} />
+      <Navbar lang={lang} nav={dict.nav} cvHref={profile.cv[lang]} />
       <main>
-        <Hero hero={dict.hero} />
+        <Hero hero={dict.hero} lang={lang} />
         <About about={dict.about} />
         <Experience experience={dict.experience} />
         <Projects projects={dict.projects} />
         <Skills skills={dict.skills} />
         <Education education={dict.education} />
       </main>
-      <Contact contact={dict.contact} footer={dict.footer} nav={dict.nav} />
+      <Contact lang={lang} contact={dict.contact} footer={dict.footer} nav={dict.nav} />
     </>
   );
 }
